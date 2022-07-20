@@ -15,24 +15,98 @@
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
-    <link rel="stylesheet" href="../example/styles.css">
+    <link rel="stylesheet" href="../public/css/styles.css">
 
     <title>Coding Projects </title>
 </head>
 
 <body>
-    <div class="qualifications">
-        <div class="qualification">
+    <nav class="container nav">
+        <a href="/index.html" class="nav__logo">MADHAVAN</a>
+
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list grid">
+                <li class="nav__item">
+                    <a href="/index.html" class="nav__link active-link">
+                        <i class="material-icons nav__icon">home</i> Home
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="/pages/resumePage.html" class="nav__link">
+                        <i class="material-icons nav__icon">resume</i> My Resume
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="/pages/codingProjects.html" class="nav__link">
+                        <i class="material-icons nav__icon">coding-projects</i> Coding-Projects
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="/pages/creativeProjects.html" class="nav__link">
+                        <i class="material-icons nav__icon">creative-projects</i> Creative-Projects
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="/pages/Co-curricularPage.html" class="nav__link">
+                        <i class="material-icons nav__icon">wallpaper</i> Co-curricular Activities
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="/pages/contactPage.html" class="nav__link">
+                        <i class="material-icons nav__icon">contact</i> Contact
+                    </a>
+                </li>
+            </ul>
+            <i class="material-icons nav__close" id="nav-close">close</i>
+        </div>
+
+        <!-- Dart theme toggle -->
+        <div class="mobile__nav" style="
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    ">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="material-icons">grid_view</i>
+            </div>
+            <!-- <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+                <i class="fas fa-moon" id="theme-button"></i>
+                <i class="fas fa-sun" id="theme-button"></i>
+                <div class="ball"></div>
+            </label> -->
+        </div>
+
+        <!-- <div class="nav__btns" id="nav-btns">
+
+            <i class="far fa-moon change-theme" id="theme-button"></i>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="material-icons">grid_view</i>
+            </div>
+        </div> -->
+
+    </nav>
+
+
+    <div class="coding-projects-header">
+        <h1 class="coding-projects-header__title">Coding Projects</h1>
+        <p class="coding-projects-header__subtitle">
+            Here are some of my coding projects.
+        </p>
+    </div>
+    <div class="codingprojects">
+        <div class="codingproject">
             <div class="line">
-                <span class="qualification__rounder"></span>
-                <span class="qualification__line"></span>
+                <span class="codingproject__rounder"></span>
+                <span class="codingproject__line"></span>
             </div>
             <div>
-                <h3 class="qualification__title">Payment Integration With Razorpay</h3>
+                <h3 class="codingproject__title">Payment Integration With Razorpay</h3>
                 <div class="date">March,2020</div>
                 <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
                     target="_blank" class="home__social-icon">
-                    <i class="fa-solid fa-link" id="theme-button"></i>
+                    <i class="fa fa-link"></i>
                 </a>
                 <div class="company">Self</div>
                 <div class="details">
@@ -41,18 +115,18 @@
                 </div>
             </div>
         </div>
-        <div class="qualification">
+        <div class="codingproject">
             <div class="line">
-                <span class="qualification__rounder"></span>
-                <span class="qualification__line"></span>
+                <span class="codingproject__rounder"></span>
+                <span class="codingproject__line"></span>
             </div>
             <div>
-                <h3 class="qualification__title">News App</h3>
+                <h3 class="codingproject__title">News App</h3>
                 <div class="date">April,2020 - May,2020</div>
-                <!-- <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
                     target="_blank" class="home__social-icon">
-                    <i class="fa-solid fa-link" id="theme-button"></i>
-                </a> -->
+                    <i class="fa fa-link"></i>
+                </a>
                 <div class="company">UNN MEDIA NETWORK LLP</div>
                 <div class="details">
                     User can browse news articles and videos through various categories. App will enable user to view
@@ -62,18 +136,18 @@
                 </div>
             </div>
         </div>
-        <div class="qualification">
+        <div class="codingproject">
             <div class="line">
-                <span class="qualification__rounder"></span>
-                <span class="qualification__line"></span>
+                <span class="codingproject__rounder"></span>
+                <span class="codingproject__line"></span>
             </div>
             <div>
-                <h3 class="qualification__title">Restaurant/Meals App</h3>
+                <h3 class="codingproject__title">Restaurant/Meals App</h3>
                 <div class="date">September,2020 - November,2020</div>
-                <!-- <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                            target="_blank" class="home__social-icon">
-                            <i class="fa-solid fa-link" id="theme-button"></i>
-                        </a> -->
+                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
+                    target="_blank" class="home__social-icon">
+                    <i class="fa fa-link"></i>
+                </a>
                 <div class="company">TOTALGO INDIA LLP</div>
                 <div class="details">
                     Complete Cross Platform solution for restaurants from receiving-managing orders to delivery and
@@ -87,18 +161,18 @@
                 </div>
             </div>
         </div>
-        <div class="qualification">
+        <div class="codingproject">
             <div class="line">
-                <span class="qualification__rounder"></span>
-                <span class="qualification__line"></span>
+                <span class="codingproject__rounder"></span>
+                <span class="codingproject__line"></span>
             </div>
             <div>
-                <h3 class="qualification__title">E-Commerce App</h3>
+                <h3 class="codingproject__title">E-Commerce App</h3>
                 <div class="date">November,2020 - February,2021</div>
-                <!-- <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                                    target="_blank" class="home__social-icon">
-                                    <i class="fa-solid fa-link" id="theme-button"></i>
-                                </a> -->
+                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
+                    target="_blank" class="home__social-icon">
+                    <i class="fa fa-link"></i>
+                </a>
                 <div class="company">TOTALGO INDIA LLP</div>
                 <div class="details">
                     Product and supply exchange app that feature an option to search for particular products
@@ -113,18 +187,18 @@
                 </div>
             </div>
         </div>
-        <div class="qualification">
+        <div class="codingproject">
             <div class="line">
-                <span class="qualification__rounder"></span>
-                <span class="qualification__line"></span>
+                <span class="codingproject__rounder"></span>
+                <span class="codingproject__line"></span>
             </div>
             <div>
-                <h3 class="qualification__title">Grocery App</h3>
+                <h3 class="codingproject__title">Grocery App</h3>
                 <div class="date">April,2021 - May,2021</div>
-                <!-- <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                                            target="_blank" class="home__social-icon">
-                                            <i class="fa-solid fa-link" id="theme-button"></i>
-                                        </a> -->
+                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
+                    target="_blank" class="home__social-icon">
+                    <i class="fa fa-link"></i>
+                </a>
                 <div class="company">TOTALGO INDIA LLP</div>
                 <div class="details">
                     Users Can search and look for grocery items or even local grocery stores nearby.
@@ -139,18 +213,18 @@
                 </div>
             </div>
         </div>
-        <div class="qualification">
+        <div class="codingproject">
             <div class="line">
-                <span class="qualification__rounder"></span>
-                <span class="qualification__line"></span>
+                <span class="codingproject__rounder"></span>
+                <span class="codingproject__line"></span>
             </div>
             <div>
-                <h3 class="qualification__title">Real Estate App</h3>
+                <h3 class="codingproject__title">Real Estate App</h3>
                 <div class="date">July,2021 - October,2021</div>
-                <!-- <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                                                    target="_blank" class="home__social-icon">
-                                                    <i class="fa-solid fa-link" id="theme-button"></i>
-                                                </a> -->
+                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
+                    target="_blank" class="home__social-icon">
+                    <i class="fa fa-link"></i>
+                </a>
                 <div class="company">TOTALGO INDIA LLP</div>
                 <div class="details">
                     A light, easy, superfast and scalable solution for Real Estate ERP. This app eliminate
@@ -164,18 +238,18 @@
                 </div>
             </div>
         </div>
-        <div class="qualification">
+        <div class="codingproject">
             <div class="line">
-                <span class="qualification__rounder"></span>
-                <span class="qualification__line"></span>
+                <span class="codingproject__rounder"></span>
+                <span class="codingproject__line"></span>
             </div>
             <div>
-                <h3 class="qualification__title">Someshwar Trust App</h3>
+                <h3 class="codingproject__title">Someshwar Trust App</h3>
                 <div class="date">January,2022 - February,2022</div>
-                <!-- <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                                                            target="_blank" class="home__social-icon">
-                                                            <i class="fa-solid fa-link" id="theme-button"></i>
-                                                        </a> -->
+                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
+                    target="_blank" class="home__social-icon">
+                    <i class="fa fa-link"></i>
+                </a>
                 <div class="company">SOMESHWAR TRUST</div>
                 <div class="details">
                     App for managing data of devotees, alerting them about new evets and functions and
@@ -189,18 +263,18 @@
                 </div>
             </div>
         </div>
-        <div class="qualification">
+        <div class="codingproject">
             <div class="line">
-                <span class="qualification__rounder"></span>
-                <span class="qualification__line"></span>
+                <span class="codingproject__rounder"></span>
+                <span class="codingproject__line"></span>
             </div>
             <div>
-                <h3 class="qualification__title">Study App</h3>
+                <h3 class="codingproject__title">Study App</h3>
                 <div class="date">March,2022</div>
-                <!-- <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                                                                    target="_blank" class="home__social-icon">
-                                                                    <i class="fa-solid fa-link" id="theme-button"></i>
-                                                                </a> -->
+                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
+                    target="_blank" class="home__social-icon">
+                    <i class="fa fa-link"></i>
+                </a>
                 <div class="company">SELF</div>
                 <div class="details">
                     A full text search enabled study app for students to prepare their subjects in corona time. <br>
@@ -213,24 +287,24 @@
                 </div>
             </div>
         </div>
-        <div class="qualification">
+        <div class="codingproject">
             <div class="line">
-                <span class="qualification__rounder"></span>
-                <span class="qualification__line"></span>
+                <span class="codingproject__rounder"></span>
+                <span class="codingproject__line"></span>
             </div>
             <div>
-                <h3 class="qualification__title">Healero</h3>
+                <h3 class="codingproject__title">Healero</h3>
                 <div class="date">May,2021 - July,2022</div>
-                <!-- <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                                                                            target="_blank" class="home__social-icon">
-                                                                            <i class="fa-solid fa-link" id="theme-button"></i>
-                                                                        </a> -->
+                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
+                    target="_blank" class="home__social-icon">
+                    <i class="fa fa-link"></i>
+                </a>
                 <div class="company">TOTALGO INDIA LLP</div>
                 <div class="details">
                     An app for assisting physiotherapy patients by their very own doctors. Empowering doctors
-                    with tools for better analysing their patients, providing with custom exercise plan with 
+                    with tools for better analysing their patients, providing with custom exercise plan with
                     video tutorial and tracking their daily progress. <br>
-                    Integrating payment structure, payment disbursement etc. 
+                    Integrating payment structure, payment disbursement etc.
                     <br><br>
                     Work Includes: <br>
                     - Admin App <br>
