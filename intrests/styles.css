@@ -24,21 +24,22 @@
         width: 100%;
     }
 }
-.qualifications {
+
+.codingprojects {
     background-color: black;
     width: 50%;
     padding: 20px;
     border-radius: 5px;
     margin: 0 auto;
 }
-.qualification {
+.codingproject {
     margin: 0 auto;
     width: 100%;
     padding: 0px;
     display: flex;
     color: white;
 }
-.qualification__rounder {
+.codingproject__rounder {
     display: inline-block;
     width: 13px;
     height: 13px;
@@ -46,7 +47,7 @@
     border-radius: 50%;
 }
 
-.qualification__line {
+.codingproject__line {
     display: block;
     width: 1px;
     height: 100%;
@@ -78,7 +79,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .qualifications {
+    .codingprojects {
         width: fit-content;
     }
 }
