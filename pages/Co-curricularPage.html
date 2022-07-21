@@ -2,128 +2,225 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="../public/css/swiper-bundle.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="../public/css/styles.css">
+
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     <title>Co-Curricular Page</title>
 </head>
 
 <body>
-    <h1>Most Noticeable Achievements</h1>
+    <nav class="container nav">
+        <a href="/index.html" class="nav__logo">MADHAVAN</a>
 
-    <!-- ###################### Cycling ########################### -->
-    <div style="text-align: center;">
-        <h2 class="section__title" style="margin-top: 50px">Cycling</h2>
-        <span class="section__subtitle">More than 7000km cycled, 5000km recorded officially.</span>
+        <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="/index.html" class="nav__link active-link">
+                        <i class="material-icons nav__icon">home</i> Home
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="/pages/resumePage.html" class="nav__link">
+                        <i class="material-icons nav__icon">resume</i> My Resume
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="/pages/codingProjects.html" class="nav__link">
+                        <i class="material-icons nav__icon">coding-projects</i> Coding-Projects
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="/pages/creativeProjects.html" class="nav__link">
+                        <i class="material-icons nav__icon">creative-projects</i> Creative-Projects
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="/pages/Co-curricularPage.html" class="nav__link">
+                        <i class="material-icons nav__icon">wallpaper</i> Co-curricular Activities
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="/pages/contactPage.html" class="nav__link">
+                        <i class="material-icons nav__icon">contact</i> Contact
+                    </a>
+                </li>
+            </ul>
+            <i class="material-icons nav__close" id="nav-close">close</i>
+        </div>
 
-        <ul>
-            <li>
-                <div>
-                    <h3>Pune - alibaug - Pune</h3>
-                    <h4>300 kms</h4>
+        <!-- Dart theme toggle -->
+        <div class="mobile__nav" style="
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    ">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="material-icons">grid_view</i>
+            </div>
+            <!-- <input type="checkbox" class="checkbox" id="chk" />
+            <label class="label" for="chk">
+                <i class="fas fa-moon" id="theme-button"></i>
+                <i class="fas fa-sun" id="theme-button"></i>
+                <div class="ball"></div>
+            </label> -->
+        </div>
+
+        <!-- <div class="nav__btns" id="nav-btns">
+
+            <i class="far fa-moon change-theme" id="theme-button"></i>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="material-icons">grid_view</i>
+            </div>
+        </div> -->
+
+    </nav>
+    <div class="container">
+
+
+
+
+        <!-- ###################### Cycling ########################### -->
+        <div style="text-align: center;">
+            <h1>Most Noticeable Achievements</h1>
+            <section class="cycling section" id="cycling">
+                <h3 class="section__title">Cycling</h3>
+            <span class="section__subtitle">More than 7000km cycled, 5000km recorded officially.</span>
+                <div class="cycling__container container">
+
+                    <div class="cycling__sections">
+                        <div class="cycling__content cycling__active" data-content id="education">
+                            <div class="cycling__data">
+                                <div>
+                                    <h3>Pune - alibaug - Pune</h3>
+                                    <h4>300 kms</h4>
+                                </div>
+
+                                <div>
+                                    <span class="cycling__rounder"></span>
+                                    <span class="cycling__line"></span>
+                                </div>
+                            </div>
+
+                            <div class="cycling__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="cycling__rounder"></span>
+                                    <span class="cycling__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3>Pune - shivneri fort - Pune</h3>
+                                    <h4>200 kms</h4>
+                                </div>
+                            </div>
+
+                            <div class="cycling__data">
+                                <div>
+                                    <h3>Pune - kanyakumari <br> First Quantitative Longest Ride In The History Of Nation
+                                        🇮🇳</h3>
+                                    <h4>1600 kms</h4>
+                                </div>
+
+                                <div>
+                                    <span class="cycling__rounder"></span>
+                                    <span class="cycling__line"></span>
+                                </div>
+                            </div>
+
+                            <div class="cycling__data">
+                                <div>
+                                    
+                                </div>
+
+                                <div>
+                                    <span class="cycling__rounder"></span>
+                                    <span class="cycling__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3>Pune - Mumbai(gate way of India) - Pune</h3>
+                                    <h4>300 kms</h4>
+                                </div>
+                            </div>
+
+                            <div class="cycling__data">
+                                <div>
+                                    <h3>Pune - Mumbai(gate way of India) - Pune</h3>
+                        <h4>300 kms</h4>
+                                </div>
+
+                                <div>
+                                    <span class="cycling__rounder"></span>
+                                    <span class="cycling__line"></span>
+                                </div>
+                            </div>
+
+                            <div class="cycling__data">
+                                <div>
+                                    
+                                </div>
+
+                                <div>
+                                    <span class="cycling__rounder"></span>                                
+                                </div>
+
+                                <div>
+                                    <h3>Nigdi - lohagad - nigdi (Ride and hike)</h3>
+                        <h4>100 kms</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </li>
-            <li>
-                <div>
-                    <h3>Pune - shivneri fort - Pune</h3>
-                    <h4>200 kms</h4>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h3>Pune - kanyakumari <br> First Quantitative Longest Ride In The History Of Nation 🇮🇳</h3>
-                    <h4>1600 kms</h4>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h3>Pune - Mumbai(gate way of India) - Pune</h3>
-                    <h4>300 kms</h4>
-                </div>
-            </li>
-            <li>
-                <div>
-                    <h3>Nigdi - lohagad - nigdi (Ride and hike)</h3>
-                    <h4>100 kms</h4>
-                </div>
-            </li>
-        </ul>
+
+            </section>
+        </div>
     </div>
     <!-- add slideshow -->
 
+    <!--==================== Slideshow ====================-->
+    <section class="Slideshow section" id="Slideshow">
+        <h2 class="section__title">Slideshow</h2>
+        <span class="section__subtitle">Most recent work</span>
+        <div class="Slideshow__contanier container swiper mySwiper">
+            <div class="swiper-wrapper slideshow">
+                <div class="Slideshow__content swiper-slide">
+                    <img src="../public/images/React_website.JPG" alt="" class="Slideshow__img">
+                </div>
+
+                <div class="Slideshow__content swiper-slide">
+                    <img src="../public/images/DrumKit.JPG" alt="" class="Slideshow__img">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next">
+                <i class="material-icons arrow">keyboard_arrow_right</i>
+            </div>
+            <div class="swiper-button-prev">
+                <i class="material-icons arrow">navigate_before</i>
+            </div>
+
+        </div>
+    </section>
 
     <!-- #################################################################### -->
-    <section class="qualification section" id="qualification">
-        <h2 class="section__title">Other Activites and Achievements</h2>
-        <span class="section__subtitle">My personal journey</span>
+   
 
-        <div class="qualification__container container">
-            <div class="qualification__tabs">
-                <div class="qualification__button button--flex">
-                    <i class="material-icons qualification__icon">school</i>
-                    Education
-                </div>
-            </div>
+    <script src="../swiper-bundle.min.js"></script>
 
-            <div class="qualification__sections">
-                <div class="qualification__content qualification__active" data-content id="education">
-                    <div class="qualification__data">
-                        <div>
-                            <h3 class="qualification__title">10th Boards | CBSE</h3>
-                            <span class="qualification__subtitle">Kendriya Vidyalaya No. 1, Dehu Road, Pune</span>
-                            <div class="qualification__calender">
-                                <i class="material-icons">calendar_today</i>
-                                2018
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-                    </div>
-
-                    <div class="qualification__data">
-                        <div></div>
-
-                        <div>
-                            <span class="qualification__rounder"></span>
-                            <span class="qualification__line"></span>
-                        </div>
-
-                        <div>
-                            <h3 class="qualification__title">12th Boards | CBSE | PCM</h3>
-                            <span class="qualification__subtitle">Kendriya Vidyalaya No. 1, Dehu Road, Pune</span>
-                            <div class="qualification__calender">
-                                <i class="material-icons">calendar_today</i>
-                                2020
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="qualification__data">
-                        <div>
-                            <h3 class="qualification__title">Automation And Robotics Enginnering</h3>
-                            <span class="qualification__subtitle">DYPIT - Dr. D. Y. Patil Institute of
-                                Technology</span>
-                            <div class="qualification__calender">
-                                <i class="material-icons">calendar_today</i>
-                                2020 - Present
-                            </div>
-                        </div>
-
-                        <div>
-                            <span class="qualification__rounder"></span>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
+    <script src="../index.js"></script>
 
 </body>
 
