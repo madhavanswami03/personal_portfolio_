@@ -128,7 +128,7 @@ window.addEventListener('scroll', scrollUp)
 */}
 
 
-let swiper = new Swiper(".portfolio__contanier", {
+let swiper = new Swiper(".Slideshow__contanier", {
     cssMode: true,
     loop: true,
     autoplay: {
