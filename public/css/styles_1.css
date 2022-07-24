@@ -1,0 +1,45 @@
+/* Co-curricular Section */
+.co-section {
+    background-color: var(--body-color);
+    width: 50%;
+    /* padding: 20px; */
+    border-radius: 5px;
+    margin: 0 auto;
+
+}
+
+.details {
+    margin-top: 2rem;
+}
+
+._details {
+    margin-top: 1rem;
+}
+
+.codingproject__title {
+    margin-bottom: 0;
+}
+
+.company {
+    margin-top: 0;
+    padding-bottom: 2rem;
+    color: gray;
+}
+
+._company {
+    padding-bottom: 0;
+}
+
+.qualification__calender {
+    padding-bottom: 2rem;
+}
+
+/* .codingproject__line {
+    /* color: var(--first-color); */
+/* background-color: var(--body-color);
+} */
+
+.section__subtitle {
+    /* margin-bottom: 2.5rem;*/
+    margin-bottom: 40px;
+}
