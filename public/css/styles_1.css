@@ -16,6 +16,16 @@
     margin-top: 1rem;
 }
 
+@media screen and (max-width: 768px) {
+    .co-section {
+        width: 100%;
+    }
+
+    .details{
+        padding: 0 2rem;
+    }
+}
+
 .codingproject__title {
     margin-bottom: 0;
 }
