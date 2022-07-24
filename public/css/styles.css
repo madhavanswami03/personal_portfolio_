@@ -276,8 +276,7 @@ img {
 }
 
 .nav__list {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem 4rem;
+    gap: 1rem 1rem;
 }
 
 .nav__link {
@@ -721,7 +720,7 @@ img {
 
 .info {
     display: flex;
-    width: 40%;
+    width: 46%;
 }
 
 @media screen and (max-width: 768px) {
