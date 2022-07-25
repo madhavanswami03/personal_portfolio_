@@ -22,62 +22,64 @@
 </head>
 
 <body>
-    <nav class="container nav">
-        <a href="/index.html" class="nav__logo">MADHAVAN</a>
+    <header class="header" id="header">
+        <nav class="container nav">
+            <a href="/index.html" class="nav__logo">MADHAVAN</a>
 
-        <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list grid">
-                <li class="nav__item">
-                    <a href="/index.html" class="nav__link active-link">
-                        <i class="material-icons nav__icon">home</i> Home
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="/pages/resumePage.html" class="nav__link">
-                        <i class="material-icons nav__icon">resume</i> My Resume
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="/pages/codingProjects.html" class="nav__link">
-                        <i class="material-icons nav__icon">coding-projects</i> Coding-Projects
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="/pages/creativeProjects.html" class="nav__link">
-                        <i class="material-icons nav__icon">creative-projects</i> Creative-Projects
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="/pages/Co-curricularPage.html" class="nav__link">
-                        <i class="material-icons nav__icon">wallpaper</i> Co-curricular Activities
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="/pages/contactPage.html" class="nav__link">
-                        <i class="material-icons nav__icon">contact</i> Contact
-                    </a>
-                </li>
-            </ul>
-            <i class="material-icons nav__close" id="nav-close">close</i>
-        </div>
-
-        <!-- Dart theme toggle -->
-        <div class="mobile__nav" style="
-        display: flex;
-        align-items: center;
-        column-gap: 20px;">
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="material-icons">grid_view</i>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/pages/resumePage.html" class="nav__link">
+                            My Resume
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/pages/codingProjects.html" class="nav__link active-link">
+                            Coding-Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/pages/creativeProjects.html" class="nav__link">
+                            Creative-Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/pages/Co-curricularPage.html" class="nav__link">
+                            Co-curricular Activities
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/pages/contactPage.html" class="nav__link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="material-icons nav__close" id="nav-close">close</i>
             </div>
-            <!-- <input type="checkbox" class="checkbox" id="chk" />
+
+            <!-- Dart theme toggle -->
+            <div class="mobile__nav" style="
+                    display: flex;
+                    align-items: center;
+                    column-gap: 20px;
+                ">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="material-icons">grid_view</i>
+                </div>
+                <!-- <input type="checkbox" class="checkbox" id="chk" />
             <label class="label" for="chk">
                 <i class="fas fa-moon" id="theme-button"></i>
                 <i class="fas fa-sun" id="theme-button"></i>
                 <div class="ball"></div>
             </label> -->
-        </div>
+            </div>
 
-        <!-- <div class="nav__btns" id="nav-btns">
+            <!-- <div class="nav__btns" id="nav-btns">
 
             <i class="far fa-moon change-theme" id="theme-button"></i>
 
@@ -86,8 +88,8 @@
             </div>
         </div> -->
 
-    </nav>
-
+        </nav>
+    </header>
 
     <div class="coding-projects-header">
         <h1 class="coding-projects-header__title">Coding Projects</h1>
@@ -320,6 +322,9 @@
             </div>
         </div>
     </div>
+
+    <script src="../index.js"></script>
+
 </body>
 
 </html>

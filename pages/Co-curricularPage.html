@@ -20,47 +20,48 @@
 </head>
 
 <body>
-    <nav class="container nav">
-        <a href="/index.html" class="nav__logo">MADHAVAN</a>
+    <header class="header" id="header">
+        <nav class="container nav">
+            <a href="/index.html" class="nav__logo">MADHAVAN</a>
 
-        <div class="nav__menu" id="nav-menu">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="/index.html" class="nav__link active-link">
-                        <i class="material-icons nav__icon">home</i> Home
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="/pages/resumePage.html" class="nav__link">
-                        <i class="material-icons nav__icon">resume</i> My Resume
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="/pages/codingProjects.html" class="nav__link">
-                        <i class="material-icons nav__icon">coding-projects</i> Coding-Projects
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="/pages/creativeProjects.html" class="nav__link">
-                        <i class="material-icons nav__icon">creative-projects</i> Creative-Projects
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="/pages/Co-curricularPage.html" class="nav__link">
-                        <i class="material-icons nav__icon">wallpaper</i> Co-curricular Activities
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="/pages/contactPage.html" class="nav__link">
-                        <i class="material-icons nav__icon">contact</i> Contact
-                    </a>
-                </li>
-            </ul>
-            <i class="material-icons nav__close" id="nav-close">close</i>
-        </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/pages/resumePage.html" class="nav__link">
+                            My Resume
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/pages/codingProjects.html" class="nav__link">
+                            Coding-Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/pages/creativeProjects.html" class="nav__link">
+                            Creative-Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/pages/Co-curricularPage.html" class="nav__link active-link">
+                            Co-curricular Activities
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="/pages/contactPage.html" class="nav__link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="material-icons nav__close" id="nav-close">close</i>
+            </div>
 
-        <!-- Dart theme toggle -->
-        <div class="mobile__nav" style="
+            <!-- Dart theme toggle -->
+            <div class="mobile__nav" style="
         display: flex;
         align-items: center;
         column-gap: 20px;
@@ -71,6 +72,7 @@
         </div>
 
     </nav>
+    </header>
     <div class="container">
 
         <!-- ###################### Cycling ########################### -->
@@ -333,7 +335,7 @@
             <h2 class="section__title">Cycling Experiences </h2>
             <span class="section__subtitle">And Learnings</span>    
             <div>
-                <div class="details ">
+                <div class="details">
                     - i am an enthusiast cyclist. My dream ride was Pune to Kanyakumari, 
                     1600 kms - 10 Days in total which I could complete in December of 2021. <br> It was an
                     enriching holistic experience overall.
@@ -369,14 +371,7 @@
         <span class="section__subtitle">Most recent work</span>
         <div class="Slideshow__contanier container swiper mySwiper">
             <div class="swiper-wrapper slideshow" id="slideshow_elemets">
-                <div class="Slideshow__content swiper-slide">
-                    <img src="../public/images/React_website.JPG" alt="" class="Slideshow__img">
-                </div>
 
-                <div class="Slideshow__content swiper-slide">
-                    <img src="../public/images/DrumKit.JPG" alt="" class="Slideshow__img">
-                </div>
-                
             </div>
             <div class="swiper-pagination"></div>
             <div class="swiper-button-next">

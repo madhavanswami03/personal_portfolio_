@@ -276,8 +276,7 @@ img {
 }
 
 .nav__list {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem 4rem;
+    gap: 1rem 1rem;
 }
 
 .nav__link {
@@ -795,7 +794,7 @@ img {
 
 .info {
     display: flex;
-    width: 40%;
+    width: 46%;
 }
 
 @media screen and (max-width: 768px) {
@@ -1030,6 +1029,12 @@ img {
 
 .company {
     margin: 15px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .company {
+       text-align: left;
+    }
 }
 
 .details {
@@ -1359,7 +1364,7 @@ img {
 
 .Slideshow__img {
     margin: 1rem 0;
-    height: auto;
+    height: 100%;
     border-radius: 0.5rem;
     justify-self: center;
 }
@@ -1407,7 +1412,7 @@ img {
 @media screen and (max-width: 425px) {
 
     .swiper {
-        width: 300px;
+        width: 350px;
         height: 200px;
     }
 }
