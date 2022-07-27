@@ -16,87 +16,35 @@
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
     <link rel="stylesheet" href="../public/css/styles.css">
-    <!-- <link rel="stylesheet" href="../intrests/styles.css"> -->
+    <link rel="stylesheet" href="../public/css/styles_1.css">
 
     <title>Coding Projects </title>
 </head>
 
 <body>
     <header class="header" id="header">
-        <nav class="container nav">
-            <a href="/index.html" class="nav__logo">MADHAVAN</a>
 
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list grid">
-                    <li class="nav__item">
-                        <a href="../index.html" class="nav__link">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="/pages/resumePage.html" class="nav__link">
-                            My Resume
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="/pages/codingProjects.html" class="nav__link active-link">
-                            Coding-Projects
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="/pages/creativeProjects.html" class="nav__link">
-                            Creative-Projects
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="/pages/Co-curricularPage.html" class="nav__link">
-                            Co-curricular Activities
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="/pages/contactPage.html" class="nav__link">
-                            Contact
-                        </a>
-                    </li>
-                </ul>
-                <i class="material-icons nav__close" id="nav-close">close</i>
-            </div>
+        <div class="topnav" id="myTopnav">
 
-            <!-- Dart theme toggle -->
-            <div class="mobile__nav" style="
-                    display: flex;
-                    align-items: center;
-                    column-gap: 20px;
-                ">
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="material-icons">grid_view</i>
-                </div>
-                <!-- <input type="checkbox" class="checkbox" id="chk" />
-            <label class="label" for="chk">
-                <i class="fas fa-moon" id="theme-button"></i>
-                <i class="fas fa-sun" id="theme-button"></i>
-                <div class="ball"></div>
-            </label> -->
-            </div>
+            <a href="/index.html" class="nav__logo"><span>MADHAVAN</span> <span>SWAMI</span> </a>
 
-            <!-- <div class="nav__btns" id="nav-btns">
-
-            <i class="far fa-moon change-theme" id="theme-button"></i>
-
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="material-icons">grid_view</i>
-            </div>
-        </div> -->
-
-        </nav>
+            <a href="/pages/resumePage.html">My Resume</a>
+            <a href="/pages/codingProjects.html" class="active">Coding-Projects</a>
+            <a href="/pages/creativeProjects.html">Creative-Projects</a>
+            <a href="/pages/Co-curricularPage.html">Co-curricular Activities</a>
+            <a href="/pages/contactPage.html">Contact Me</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
     </header>
 
-    <div class="coding-projects-header">
-        <h1 class="coding-projects-header__title">Coding Projects</h1>
-        <p class="coding-projects-header__subtitle">
-            Here are some of my coding projects.
-        </p>
-    </div>
+
+
+
+    <h2 class="section__title _height">Coding Projects</h2>
+    <span class="section__subtitle">Here are some of my coding projects.</span>
+
 
     <div class="codingprojects">
         <div class="codingproject">
@@ -107,10 +55,10 @@
             <div>
                 <h3 class="codingproject__title margin_bottom_0 margin_bottom_0">Healero</h3>
                 <div class="company _company">TOTALGO INDIA LLP</div>
-                <div class="date">May,2021 - July,2022</div>
-                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                    target="_blank" class="home__social-icon">
-                    <i class="fa fa-link"></i>
+                <div class="date">April,2021 - July,2022</div>
+                <a href="/assets/certificates/Madhavan Swami - app develper- healero.pdf" target="_blank"
+                    class="home__social-icon">
+                    <i class="fa fa-link _icon_margin"></i>
                 </a>
                 <div class="details _padding">
                     An app for assisting physiotherapy patients by their very own doctors. Empowering doctors
@@ -124,8 +72,8 @@
                     - Patient App <br>
                     - Backend Server <br><br>
                     Links: <br>
-                    - <a href="https://healero.in/"> Healero.in</a> <br>
-                    - <a href="https://play.google.com/store/apps/details?id=com.healero.app"> App Link</a>
+                    - <a href="https://healero.in/" target="_blank"> Healero.in</a> <br>
+                    - <a href="https://play.google.com/store/apps/details?id=com.healero.app" target="_blank"> App Link</a>
                 </div>
             </div>
         </div>
@@ -138,12 +86,12 @@
                 <h3 class="codingproject__title margin_bottom_0">Study App</h3>
                 <div class="company _company">SELF</div>
                 <div class="date">March,2022</div>
-                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                    target="_blank" class="home__social-icon">
-                    <i class="fa fa-link"></i>
+                <a href="/assets/meilisearch video.mp4" target="_blank" class="home__social-icon">
+                    <i class="fa fa-link _icon_margin"></i>
                 </a>
                 <div class="details _padding">
-                    A full text search enabled study app for students to prepare their subjects in corona time. <br>
+                    A full text search enabled study app for students to prepare their subjects in corona time.
+                    <br>
                     Meilisearch and Laravel powered server to process the requests and provide with the results.
                     <br><br>
                     Work Includes: <br>
@@ -162,10 +110,6 @@
                 <h3 class="codingproject__title margin_bottom_0">Someshwar Trust App</h3>
                 <div class="company _company">SOMESHWAR TRUST</div>
                 <div class="date">January,2022 - February,2022</div>
-                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                    target="_blank" class="home__social-icon">
-                    <i class="fa fa-link"></i>
-                </a>
                 <div class="details _padding">
                     App for managing data of devotees, alerting them about new evets and functions and
                     displaying media of previous events and functions.
@@ -187,9 +131,9 @@
                 <h3 class="codingproject__title margin_bottom_0">Real Estate App</h3>
                 <div class="company _company">TOTALGO INDIA LLP</div>
                 <div class="date">July,2021 - October,2021</div>
-                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                    target="_blank" class="home__social-icon">
-                    <i class="fa fa-link"></i>
+                <a href="/assets/certificates/Madhavan Swami - app develper- healero.pdf" target="_blank"
+                    class="home__social-icon _icon_margin">
+                    <i class="fa fa-link _icon_margin"></i>
                 </a>
                 <div class="details _padding">
                     A light, easy, superfast and scalable solution for Real Estate ERP. This app eliminate
@@ -212,9 +156,9 @@
                 <h3 class="codingproject__title margin_bottom_0">Grocery App</h3>
                 <div class="company _company">TOTALGO INDIA LLP</div>
                 <div class="date">April,2021 - May,2021</div>
-                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                    target="_blank" class="home__social-icon">
-                    <i class="fa fa-link"></i>
+                <a href="/assets/certificates/Madhavan Swami - app develper- healero.pdf" target="_blank"
+                    class="home__social-icon _icon_margin">
+                    <i class="fa fa-link _icon_margin"></i>
                 </a>
                 <div class="details _padding">
                     Users Can search and look for grocery items or even local grocery stores nearby.
@@ -238,9 +182,9 @@
                 <h3 class="codingproject__title margin_bottom_0">E-Commerce App</h3>
                 <div class="company _company">TOTALGO INDIA LLP</div>
                 <div class="date">November,2020 - February,2021</div>
-                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                    target="_blank" class="home__social-icon">
-                    <i class="fa fa-link"></i>
+                <a href="/assets/certificates/Madhavan Swami - app develper- healero.pdf" target="_blank"
+                    class="home__social-icon _icon_margin">
+                    <i class="fa fa-link _icon_margin"></i>
                 </a>
                 <div class="details _padding">
                     Product and supply exchange app that feature an option to search for particular products
@@ -264,12 +208,13 @@
                 <h3 class="codingproject__title margin_bottom_0">Restaurant/Meals App</h3>
                 <div class="company _company">TOTALGO INDIA LLP</div>
                 <div class="date">September,2020 - November,2020</div>
-                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                    target="_blank" class="home__social-icon">
-                    <i class="fa fa-link"></i>
+                <a href="/assets/certificates/Madhavan Swami - app develper- healero.pdf" target="_blank"
+                    class="home__social-icon _icon_margin">
+                    <i class="fa fa-link _icon_margin"></i>
                 </a>
                 <div class="details _padding">
-                    Complete Cross Platform solution for restaurants from receiving-managing orders to delivery and
+                    Complete Cross Platform solution for restaurants from receiving-managing orders to delivery
+                    and
                     tracking orders.
                     A simple service to order food from a variety of restaurants online. <br><br>
                     Work Includes: <br>
@@ -289,15 +234,16 @@
                 <h3 class="codingproject__title margin_bottom_0">News App</h3>
                 <div class="company _company">UNN MEDIA NETWORK LLP</div>
                 <div class="date">April,2020 - May,2020</div>
-                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                    target="_blank" class="home__social-icon">
-                    <i class="fa fa-link"></i>
+                <a href="/assets/certificates/Madhavan Swami - Update Now NEws.pdf" target="_blank"
+                    class="home__social-icon _icon_margin">
+                    <i class="fa fa-link _icon_margin"></i>
                 </a>
                 <div class="details _padding">
-                    User can browse news articles and videos through various categories. App will enable user to view
+                    User can browse news articles and videos through various categories. App will enable user to
+                    view
                     news details, images,
                     and videos. All the latest and greatest news right at users finger tips. <br>
-                    Link: <a href="https://updatenownews.com/">UpdateNowNews.com</a>
+                    Link: <a href="https://updatenownews.com/" target="_blank">UpdateNowNews.com</a>
                 </div>
             </div>
         </div>
@@ -310,10 +256,6 @@
                 <h3 class="codingproject__title margin_bottom_0">Payment Integration With Razorpay</h3>
                 <div class="company _company">Self</div>
                 <div class="date">March,2020</div>
-                <a href="https://drive.google.com/file/d/1RDPOyLWbxDL9KC_QSQKVJUj1Vb-MgbjI/view?usp=sharing"
-                    target="_blank" class="home__social-icon">
-                    <i class="fa fa-link"></i>
-                </a>
                 <div class="details _padding" style="padding-bottom:0">
                     Cross platform app that allows buyers to pay for purchases directly from the app and enables
                     sellers

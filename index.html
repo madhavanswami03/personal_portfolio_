@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="./public/css/styles.css">
+    <link rel="stylesheet" href="./public/css/styles_1.css">
 
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
@@ -21,7 +22,25 @@
 </head>
 
 <body>
-    <header class="header" id="header">
+
+    <div class="topnav" id="myTopnav">
+        <header class="header" id="header">
+
+
+            <a href="/index.html" class="nav__logo logo_active"><span>MADHAVAN</span> <span>SWAMI</span> </a>
+
+            <a href="/pages/resumePage.html">My Resume</a>
+            <a href="/pages/codingProjects.html">Coding-Projects</a>
+            <a href="/pages/creativeProjects.html">Creative-Projects</a>
+            <a href="/pages/codingProjects.html">Co-curricular Activities</a>
+            <a href="/pages/contactPage.html">Contact Me</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </header>
+    </div>
+
+    <!-- <header class="header" id="header">
         <nav class="container nav">
             <a href="#" class="nav__logo">MADHAVAN</a>
 
@@ -61,7 +80,7 @@
                 <i class="material-icons nav__close" id="nav-close">close</i>
             </div>
 
-            <!-- Dart theme toggle -->
+            Dart theme toggle
             <div class="mobile__nav" style="
             display: flex;
             align-items: center;
@@ -70,84 +89,49 @@
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="material-icons">grid_view</i>
                 </div>
-                <!-- <input type="checkbox" class="checkbox" id="chk" />
+                <input type="checkbox" class="checkbox" id="chk" />
                 <label class="label" for="chk">
                     <i class="fas fa-moon" id="theme-button"></i>
                     <i class="fas fa-sun" id="theme-button"></i>
                     <div class="ball"></div>
-                </label> -->
+                </label>
             </div>
 
-            <!-- <div class="nav__btns" id="nav-btns">
+            <div class="nav__btns" id="nav-btns">
 
                 <i class="far fa-moon change-theme" id="theme-button"></i>
 
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="material-icons">grid_view</i>
                 </div>
-            </div> -->
+            </div>
 
         </nav>
-    </header>
+    </header> -->
+
+
+
     <main class="main">
         <!--==================== HOME ====================-->
         <section class="home section" id="home">
             <div class="home__container container grid">
                 <div class="home__content grid">
                     <div class="home__social">
-                        <a href="" target="_blank" class="home__social-icon">
+                        <a href="https://www.linkedin.com/in/madhavan-swami-78089a135/" target="_blank"
+                            class="home__social-icon">
                             <i class="fab fa-linkedin"></i>
                         </a>
 
-                        <a href="" target="_blank" class="home__social-icon">
+                        <a href="https://github.com/madhavanswami03/" target="_blank" class="home__social-icon">
                             <i class="fab fa-github"></i>
                         </a>
 
-                        <a href="" target="_blank" class="home__social-icon">
+                        <a href="mailto:madhavanswami03@gmail.com" target="_blank" class="home__social-icon">
                             <i class="far fa-envelope"></i>
                         </a>
                     </div>
 
                     <div class="home__img">
-                        <!-- <svg class="home__blob" viewbox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                            <mask id="mask0" mask-type="alpha">
-                                <path d="
-                                        M 0, 70
-                                        C 0, 21.700000000000003 21.700000000000003, 0 70, 0
-                                        S 140, 21.700000000000003 140, 70
-                                            118.3, 140 70, 140
-                                            0, 118.3 0, 70
-                                        " transform="rotate(
-                                            22,
-                                            100,
-                                            100
-                                        ) translate(
-                                            30
-                                            30
-                                        )">
-                                </path>
-                            </mask>
-                            <g mask="url(#mask0)">
-                                <path d="
-                                        M 0, 70
-                                        C 0, 21.700000000000003 21.700000000000003, 0 70, 0
-                                        S 140, 21.700000000000003 140, 70
-                                            118.3, 140 70, 140
-                                            0, 118.3 0, 70
-                                        " transform="rotate(
-                                            22,
-                                            100,
-                                            100
-                                        ) translate(
-                                            30
-                                            30
-                                        )">
-                                </path>
-                                <image class="home__blob-img" x=-185 y=30
-                                    xlink:href="" />
-                            </g>
-                        </svg> -->
-
                         <lottie-player class="home__blob"
                             src="https://assets1.lottiefiles.com/packages/lf20_kkflmtur.json" background="transparent"
                             speed="1" loop autoplay></lottie-player>
@@ -157,7 +141,7 @@
                         <h1 class="home__title">Hi, I'am Madhavan</h1>
                         <h3 class="home__subtitle">Tech Scientist</h3>
                         <p class="home__description"></p>
-                        <a href="#contact" class="button button-flex" style="margin-right: 10px;">
+                        <a href="pages/contactPage.html" class="button button-flex" style="margin-right: 10px;">
                             Contact Me <i class="material-icons nav__icon button__icon">send</i>
                         </a>
                         <a href="./pages/resumePage.html" class="button button-flex">
@@ -182,14 +166,15 @@
             <span class="section__subtitle">My Introduction</span>
             <div class="about__bg"></div>
             <div class="about__container container grid">
-                <img src="./public/images/IMG_1004.JPG" alt="" class="about__img">
+                <img src="./assets/dp.jpg" alt="" class="about__img">
 
                 <div class="about__data">
-                    <p class="about__description">I am Madhavan Swami currently pursuing a BE degree in Automation And
+                    <p class="about__description">
+                        I am Madhavan Swami currently pursuing a BE degree in Automation And
                         Robotics at DYPIT
                         -
-                        Dr. D. Y. Patil Institute of Technology, Pune. An App Developer and an Open Source
-                        Ethuasiast.</p>
+                        Dr. D. Y. Patil Institute of Technology, Pune. An App Developer and Programmer by heart.
+                    </p>
 
                 </div>
             </div>
