@@ -132,9 +132,9 @@ let swiper = new Swiper(".Slideshow__contanier", {
     cssMode: true,
     slidesPerView: 1,
     spaceBetween: 30,
-    loop: true,
+    loop: false,
     autoplay: {
-        delay: 2000,
+        delay: 3000,
     },
     navigation: {
         nextEl: ".swiper-button-next",
