@@ -143,3 +143,17 @@
 ._icon_margin_05 {
     margin-top: 0.5rem;
 }
+
+@media screen and (max-width: 568px) {
+    .qualification__calender {
+        padding-bottom: 0;
+    }
+
+    .cycling__data {
+        margin-bottom: 3.5rem;
+    }
+
+    ._padding {
+        padding-bottom: 2.5rem;
+    }
+}

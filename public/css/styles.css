@@ -432,14 +432,14 @@ img {
     position: absolute;
     left: 0px;
     width: 100%;
-    min-height: 500px;
+    min-height: 565px;
     background: linear-gradient(134deg, rgb(106, 152, 240) 0%, rgb(73, 97, 220) 99%);
     transform: skewY(-3deg);
     z-index: -1;
 }
 
 .about__img {
-    width: 200px;
+    width: 230px;
     border-radius: 0.5rem;
     justify-self: center;
     align-self: center;
@@ -1066,6 +1066,10 @@ img {
 }
 
 @media screen and (max-width: 375px) {
+    .button-flex {
+        margin-bottom: 1rem;
+    }
+
     .container {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -1089,7 +1093,7 @@ img {
     }
 
     .about__img {
-        width: 250px;
+        width: 200px;
     }
 
     .skills__title {
@@ -1101,8 +1105,25 @@ img {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .about__bg {
+        min-height: 700px;
+        ;
+    }
+
+    .info-box {
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 578px) {
+    .about__bg {
+        min-height: 620px;
+    }
+}
+
 @media screen and (min-width:568px) {
-    .home__content {
+    /* .home__content {
         padding-top: 0;
         grid-template-columns: max-content 1fr 1fr;
         column-gap: 0.8rem;
@@ -1119,6 +1140,14 @@ img {
     .home__img {
         order: 1;
         justify-content: center;
+    } */
+
+    .about__bg {
+        min-height: 400px;
+    }
+
+    .about__description {
+        margin-top: 5rem;
     }
 
     .about__container,
@@ -1136,6 +1165,12 @@ img {
         display: grid;
         grid-template-columns: 0.6fr;
         justify-content: center;
+    }
+}
+
+@media screen and (min-width:578px) and (max-width: 625px) {
+    .about__bg {
+        min-height: 460px;
     }
 }
 
@@ -1200,6 +1235,25 @@ img {
         margin: 0;
     }
 
+    .home__content {
+        padding-top: 0;
+        grid-template-columns: max-content 1fr 1fr;
+        column-gap: 0.8rem;
+    }
+
+    .home__data {
+        grid-column: initial;
+    }
+
+    .home__blob {
+        width: 250px;
+    }
+
+    .home__img {
+        order: 1;
+        justify-content: center;
+    }
+
     .home__container {
         row-gap: 5rem;
     }
@@ -1221,9 +1275,13 @@ img {
         margin-left: 3rem;
     }
 
+    .about__bg {
+        min-height: 500px;
+    }
+
     .about__container {
         column-gap: 5rem;
-        margin-top: 13rem;
+        margin-top: 7rem;
     }
 
     .about__description {
@@ -1338,7 +1396,7 @@ img {
     }
 
     .about__img {
-        width: 400px;
+        width: 270px;
     }
 
     .about__info {
