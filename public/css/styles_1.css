@@ -136,6 +136,10 @@
     /* color: white; */
 }
 
+.topnav a.active:hover {
+    color: white;
+}
+
 ._icon_margin {
     margin-top: 1rem;
 }
